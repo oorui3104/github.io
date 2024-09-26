@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+  <div class="form-container">
+    
+    <div class="title-wrap">
+      <h1 class="title">お問い合わせフォーム</h1>
+    </div>
+
+    <div class="form-wrap">
+      <div class="flex-items">
+        <label for="name">名前：</label>
+        <input id="name" type="text">
+        <label for="mail">メール：</label>
+        <input id="mail" type="email">
+      </div>
+
+      <div class="select-wrap">
+        <label class="select-label" for="select">ー　問い合わせ種別　ー
+        </label>
+        <p class="select-text">※ 以下の選択肢から該当する選択肢をお選びください。</p>
+        <select id="select">
+          <option value="#">一般的なお問い合わせ</option>
+          <option value="#">採用に関するお問い合わせ</option>
+          <option value="#">製品に関するお問い合わせ</option>
+          <option value="#">サポートに関するお問い合わせ</option>
+          <option value="#">その他</option>
+        </select>
+      </div>
+
+      <div class="contact-wrap">
+        <label class="label-contact" for="contact">ー　お問い合わせ内容　ー</label>
+        <textarea class="contact" name="" id="" cols="60" rows="20" placeholder="お問い合わせ内容を入力してください"></textarea>
+      </div>
+
+      <button class="submit-button">送信</button>
+    </div> <!-- form-wrap END -->
+
+  </div>  <!-- form-container END -->
+
+
+  </form>
+  
+
+</body>
+
+</html>
